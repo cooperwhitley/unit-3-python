@@ -16,6 +16,8 @@ winner = 0
 # create score counter using scores[0] for O and scores[1] for x
 scores = [0, 0]
 
+
+############ functions
 # opening message printer function
 def open_message():
     print("-------------------------")
@@ -137,6 +139,7 @@ def init():
     turn = 1
     board_clearer()
     turn_handler()
+
 
 open_message()
 init()
